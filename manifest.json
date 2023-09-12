@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "name": "Grasso Browser Alpha",
+  "version": "0.0.2",
+  "author": "Caden Finkelstein <cadenmf@gmail.com>",
+
+  "description": "An experimental browser that runs in chrome.",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "webview",
+    "audioCapture",
+    "videoCapture",
+    "fullscreen",
+    "pointerLock",
+    "http://*/*",
+    "https://*/*"
+    ]
+}
